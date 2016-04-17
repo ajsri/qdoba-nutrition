@@ -5,12 +5,14 @@ class QdobaNutrition extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      title: "Qdoba Nutrition"
+      title: "Qdoba Nutrition",
     }
   }
   render(){
     return(
-      <div>{this.state.title}</div>
+      <div>
+        {this.state.title}
+      </div>
     )
   }
 }
