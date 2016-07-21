@@ -61,35 +61,42 @@ class QdobaNutrition extends React.Component{
 
   render(){
     return(
-      <div>
-        <h1>{this.state.title}</h1>
-        {this.state.order.length > 0 &&
-          <div>
-            <div>Calories: {this.state.nutrition.calories}</div>
-            <div>Protein: {this.state.nutrition.protein}</div>
-            <div>Fat: {this.state.nutrition.fat}</div>
-            <div>Carbs: {this.state.nutrition.carbs}</div>
-            <div>Sodium: {this.state.nutrition.sodium}</div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <h1>{this.state.title}</h1>
+            {this.state.order.length > 0 &&
+              <div>
+                <div>Calories: {this.state.nutrition.calories}</div>
+                <div>Protein: {this.state.nutrition.protein}</div>
+                <div>Fat: {this.state.nutrition.fat}</div>
+                <div>Carbs: {this.state.nutrition.carbs}</div>
+                <div>Sodium: {this.state.nutrition.sodium}</div>
+              </div>
+            }
           </div>
-        }
-        {Object.keys(this.state.menu).map((cat, i) => {
-          return(
-            <div key={i}>
-              <h1>{cat}</h1>
-              {this.state.menu[cat].map((item, i) => {
-                return(
-                  <div className="checkbox" key={i}>
-                    <label>
-                      <input type="checkbox"
-                             onClick={(e)=>this.updateOrder(item, e)}/>
-                      {item.name}
-                    </label>
-                  </div>
-                )
-              })}
-            </div>
-          )
-        })}
+        </div>
+        <div className="row">
+          {Object.keys(this.state.menu).map((cat, i) => {
+            return(
+              <div key={i} className="col-md-12">
+                <h1>{cat}</h1>
+                {this.state.menu[cat].map((item, i) => {
+                  return(
+                    <div className="checkbox" key={i}>
+                      <label>
+                        <input type="checkbox"
+                               style={{marginRight: 6}}
+                               onClick={(e)=>this.updateOrder(item, e)}/>
+                        {item.name}
+                      </label>
+                    </div>
+                  )
+                })}
+              </div>
+            )
+          })}
+        </div>
       </div>
     )
   }
