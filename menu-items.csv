@@ -1,0 +1,26 @@
+id,name,category,allergens,serving_size,calories,fat,saturated_fat,trans_fat,cholesterol,sodium,potassium,carbohydrates,fiber,sugar,protein
+,Ancho Chili BBQ Sauce,Sauce,MSW,57,90,3,1,0,0,540,125,17,2,12,0
+,"Beef, Seasoned Ground",Meat,,99,190,11,4,1,65,560,290,4,0,1,21
+,"Beef, Seasoned Shredded",Meat,,113,190,7,3,0,75,540,280,6,0,0,24
+,Black Beans,Beans,,113,140,1,0,0,0,330,360,24,14,1,9
+,Brown Rice,Rice,,113,170,2,0,0,0,250,115,35,3,1,4
+,"Cheese, Shredded",Toppings,M,43,170,13,8,1,45,270,45,1,0,0,10
+,"Chicken, Grilled Marinated",Meat,M,99,170,8,3,0,105,530,400,4,1,1,22
+,"Chicken, Tequila Lime",Meat,M,50,100,4,1,0,56,230,170,9,1,5,22
+,Cilantro Lime Rice,Rice,,113,190,3,1,0,0,390,30,38,1,0,3
+,Fiery Habanero,Sauce,,57,20,0,0,0,0,260,0,3,1,2,1
+,Flour Tortilla,Base,WG,102,300,7,3,0,0,760,50,52,3,2,8
+,Guacamole,Toppings,,85,130,10,2,0,0,300,370,7,3,0,1
+,Pico de Gallo,Sauce,,57,0,0,0,0,0,70,95,3,1,2,0
+,Pinto Beans,Beans,,113,130,1,,0,0,350,440,23,14,1,8
+,"Pork, Pulled",Meat,,113,160,5,2,0,80,390,420,10,0,1,19
+,Salsa Roja,Sauce,,57,20,0,0,0,0,460,0,4,1,2,1
+,Salsa Verde,Sauce,,57,15,0,0,0,0,280,90,3,1,1,0
+,Sour Cream,Toppings,M,57,50,5,3,0,15,40,100,2,0,2,3
+,"Steak, Grilled Marinated",Meat,M,99,180,8,3,0,65,460,490,2,0,0,26
+,Three Cheese Queso,Toppings,M,57,90,8,5,0,25,350,45,3,1,1,3
+,Whole Wheat Tortilla,Base,WG,96,270,5,1,0,0,590,220,47,5,3,11
+,Queso Diablo,Toppings,M,57,80,6,4,0,20,350,65,4,1,1,3
+,Roasted Chili Corn Salsa,Sauce,,57,50,1,0,0,0,105,125,10,2,1,2
+,"Lettuce, Shredded",Toppings,,9,0,0,0,0,0,0,20,0,0,0,0
+,Fajita Vegetables,Toppings,,57,35,2,0,0,0,180,120,4,1,2,1
