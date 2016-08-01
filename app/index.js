@@ -77,25 +77,29 @@ class QdobaNutrition extends React.Component{
           </div>
         </div>
         <div className="row">
-          {Object.keys(this.state.menu).map((cat, i) => {
-            return(
-              <div key={i} className="col-md-12">
-                <h1>{cat}</h1>
-                {this.state.menu[cat].map((item, i) => {
-                  return(
-                    <div className="checkbox" key={i}>
-                      <label>
-                        <input type="checkbox"
-                               style={{marginRight: 6}}
-                               onClick={(e)=>this.updateOrder(item, e)}/>
-                        {item.name}
-                      </label>
-                    </div>
-                  )
-                })}
-              </div>
-            )
-          })}
+          <div className="col-md-12">
+            <div style={{display: "flex", width: "100%"}}>
+              {Object.keys(this.state.menu).map((cat, i) => {
+                return(
+                  <div key={i} style={{width: "100%"}}>
+                    <h1>{cat}</h1>
+                    {this.state.menu[cat].map((item, i) => {
+                      return(
+                        <div className="checkbox" key={i}>
+                          <label>
+                            <input type="checkbox"
+                                   style={{marginRight: 6}}
+                                   onClick={(e)=>this.updateOrder(item, e)}/>
+                            {item.name}
+                          </label>
+                        </div>
+                      )
+                    })}
+                  </div>
+                )
+              })}
+            </div>
+          </div>
         </div>
       </div>
     )
