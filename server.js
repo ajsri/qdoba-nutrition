@@ -8,6 +8,6 @@ app.get('/', function(request, response) {
   response.sendFile(__dirname + '/index.html');
 })
 
-app.listen(4741, function(){
-  console.log("Listening on port 4741")
+app.listen(process.env.PORT || 4741), function(){
+  console.log("Listening")
 })
