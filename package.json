@@ -4,7 +4,8 @@
   "description": "why did you remove the calculator qdoba",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --progress --colors --watch"
+    "dev": "webpack --progress --colors",
+    "main": "node server.js"
   },
   "keywords": [
     "qdoba"
@@ -12,6 +13,7 @@
   "author": "AJ Srivastava",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.14.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1"
   },
